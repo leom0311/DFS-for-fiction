@@ -8,7 +8,7 @@ const path = require("path");
 const { stringify } = require("querystring");
 
 // Load the Ink JSON story file
-const storyFilePath = "ABridefortheDragonKing (1).json"; //process.argv[2];
+const storyFilePath = "./data/OneNightOneBar.json"; //process.argv[2];
 const outputFilePrefix = "progress"; //process.argv[3] || "progress";
 
 // Function to generate a unique file name prefix
