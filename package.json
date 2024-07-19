@@ -1,0 +1,21 @@
+{
+  "name": "john",
+  "version": "1.0.0",
+  "description": "",
+  "main": "claude.js",
+  "scripts": {
+    "start": "node --max_old_space_size=4096 --stack_size=2048 claude.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "inkjs": "^2.2.4",
+    "path": "^0.12.7",
+    "readline-sync": "^1.4.10",
+    "util": "^0.12.5",
+    "winston": "^3.13.1"
+  }
+}
