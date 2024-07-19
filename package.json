@@ -2,14 +2,15 @@
   "name": "john",
   "version": "1.0.0",
   "description": "",
-  "main": "claude.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node --max_old_space_size=4096 --stack_size=2048 claude.js"
+    "start": "node --max_old_space_size=4096 --stack_size=2048 server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "express": "^4.19.2",
     "fs": "^0.0.1-security",
